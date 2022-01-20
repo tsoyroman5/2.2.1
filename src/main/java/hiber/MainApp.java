@@ -51,7 +51,7 @@ public class MainApp {
          System.out.println();
       }
 
-      userService.findUserByCarSeries(22222);
+      userService.findUserByCar(22222, "VOLVO");
 
       context.close();
    }
